@@ -1,0 +1,14 @@
+CREATE TABLE MONTHS (
+  id INT,
+  name VARCHAR,
+  email VARCHAR,
+  PRIMARY KEY(id)
+);
+
+
+INSERT INTO MONTHS (id, name, email) VALUES (1, 'JAN', 'january@email.com');
+INSERT INTO MONTHS (id, name, email) VALUES (2, 'FEB', 'february@email.com');
+INSERT INTO MONTHS (id, name, email) VALUES (3, 'MAR', 'march@email.com');
+INSERT INTO MONTHS (id, name, email) VALUES (4, 'APR', 'april@email.com');
+INSERT INTO MONTHS (id, name, email) VALUES (5, 'MAY', 'may@email.com');
+INSERT INTO MONTHS (id, name, email) VALUES (6, 'JUN', 'june@email.com');
